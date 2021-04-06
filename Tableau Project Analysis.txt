@@ -1,0 +1,23 @@
+Citi Bike Analytics
+
+I decided to look at what factors determine to average trip duration while riding a Citi Bike. 
+The data set includes all citi bike trips in 2020 in the Jersey City area. 
+I was able to create a union of 12 csv files in Tableau to create a 2020 dataset.
+There are two different parts of the analysis.
+
+Part 1
+This part looked at the total number of trips per station along with the average trip duration from each station.
+My initial thought was that the stations with higher trip counts would have a lower average trip duration. Just because the more trips the lower the average would be based on the map.
+This appeared to be the case, however it looks more interesting when you map the trip counts and trip durations.
+The stations with the higher trip counts appear to aggregate toward the center of Jersey City.
+While the stations with higher average trip durations appear in more remote locations on the edge of the area.
+This would make sense since the more remote the location, the longer the expected ride would be.
+
+Part 2
+The second part looked at the average trip duration per station versus the average age of the rider per station.
+As shown in the line graph, average trip duration tends to decrease as average rider age increases.
+Next, I wanted to see if age would effect the average trip duration more than location by displaying the average trip durations per station as average age increases.
+There was no obvious change in trip duration based on rider age per station. And as shown on the map, average rider age is very much the same per station.
+
+
+This was a very interesting data set to view and I enjoyed working with the CityBike data.
